@@ -18,6 +18,9 @@
 
     .row {
       margin-bottom: 8rem;
+      border: 1px solid rgba(0, 0, 0, 0.16);
+      padding: 3rem;
+      border-radius: 1rem;
 
       @include respond(phone) {
         margin-bottom: 4rem;
@@ -50,8 +53,10 @@
     }
 
     &__image {
-      width: 90%;
-      margin: 0 auto;
+      display: flex;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
 
       @include respond(tab-land) {
         width: 100%;
